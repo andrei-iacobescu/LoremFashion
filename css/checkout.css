@@ -1,0 +1,207 @@
+a {
+  color: #2B2E34;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F66249;
+  text-decoration: none;
+}
+
+.active {
+  color: #F66249 !important;
+}
+
+.togg-color {
+  color: #F66249;
+}
+
+.sale::before {
+  content: "";
+  width: 220px;
+  height: 30px;
+  background-color: #fff;
+  display: block;
+  top: -30px;
+  position: absolute;
+  z-index: 34;
+}
+
+.sale-2::before {
+  content: "";
+  width: 227px;
+  height: 23px;
+  background-color: #fff;
+  display: block;
+  top: 93px;
+  left: -110px;
+  transform: rotate(90deg);
+  position: absolute;
+  z-index: 34;
+}
+
+.sale::after {
+  content: "Sale!";
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(-42deg);
+  width: 180px;
+  height: 35px;
+  padding-top: .3em;
+  margin-left: -1.3em;
+  background-color: #F66249;
+  display: block;
+  top: 30px;
+  left: 0px;
+  position: absolute;
+  z-index: 33;
+}
+
+.active-pag {
+  background-color: #2B2E34;
+  color: #fff !important;
+}
+
+.active-pag:hover {
+  background-color: #2B2E34 !important;
+  color: #F66249 !important;
+}
+
+a {
+  color: #2B2E34;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F66249;
+  text-decoration: none;
+}
+
+.content h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.2;
+  margin-bottom: 1.5em;
+}
+
+.content .media-1,
+.content .media-2 {
+  align-items: center;
+  margin-bottom: 3.5em;
+}
+
+.content .media-1 i,
+.content .media-2 i {
+  background-color: #2B2E34;
+  color: #FBFBFB;
+  padding: .6em;
+  margin-right: .7em;
+}
+
+.content .media-1 .media-body p,
+.content .media-2 .media-body p {
+  margin: 0;
+}
+
+.content .media-1 .media-body p a,
+.content .media-2 .media-body p a {
+  color: #F66249;
+}
+
+.content h3 {
+  font-weight: 600;
+  margin-bottom: 1.6em;
+}
+
+.content form {
+  margin-bottom: 5em;
+}
+
+.content form .form-row label {
+  color: gray;
+}
+
+.content form .form-row span {
+  color: red;
+}
+
+.content table {
+  margin-bottom: 7em;
+}
+
+.content table .order-product {
+  text-align: center;
+  color: gray;
+}
+
+.content table .order-product span {
+  color: #000;
+  font-weight: 600;
+}
+
+.content table .subtotal {
+  font-weight: 600;
+}
+
+.content table .total {
+  color: #F66249;
+  font-weight: 600;
+}
+
+.content .paypal {
+  background-color: #e5e5e5;
+  padding: 1.5em .8em;
+  margin-bottom: 5em;
+}
+
+.content .paypal .first-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.content .paypal .first-row .paypal-img {
+  width: 130px;
+}
+
+.content .paypal .first-row p {
+  color: gray;
+}
+
+.content .paypal .first-row .question {
+  margin-left: auto;
+}
+
+.content .paypal .first-row .question a {
+  color: #F66249;
+}
+
+.content .paypal .second-row {
+  background-color: #fff;
+  color: gray;
+  padding: .6em;
+  margin-bottom: 1.7em;
+}
+
+.content .paypal .second-row p {
+  margin: 0;
+}
+
+.content .paypal .third-row {
+  display: flex;
+  justify-content: end;
+  margin-right: 2em;
+}
+
+.content .paypal .third-row button {
+  background-color: #F66249;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .9rem;
+  padding: 1em 1.7em;
+}
+
+.content .paypal .third-row button:hover {
+  background-color: #e92b0b;
+}

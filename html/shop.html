@@ -1,0 +1,714 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Lorem.xyz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/fontawesome/all.css">
+    <link rel="stylesheet" href="../OwlCarousel2/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../OwlCarousel2/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/shop.css">
+</head>
+<body>
+    
+    <!-- Top NAV -->
+
+
+<nav class="navbar navbar-expand-lg top-nav">
+  
+    <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item top-email">
+                <span>
+                    <i class="far fa-envelope"></i>
+                    yourmail@mail.com
+                </span>
+            </li>
+            <li class="nav-item position-relative">
+                    <input type="search" placeholder="Search ..." class="form-control">
+                    <i class="fas fa-search"></i>
+            </li>
+            <li class="nav-item acc-item">
+                <a href="../html/account-page.html" class="nav-link"><i class="fas fa-user"></i>
+                    Account
+                </a>
+            </li>
+            <li class="nav-item shop-item">   
+                <a href="../html/cart.html" class="nav-link">
+                <i class="fas fa-shopping-cart"></i>
+                  My Cart - $ 0.00
+                </a>
+            </li>
+            
+        </ul>
+        <!-- Shop Item XS Display -->
+        <div class="shop-xs-item">
+            <a href="#" class="nav-link">
+                <i class="fas fa-shopping-cart"></i>
+                  My Cart - $ 0.00
+            </a>
+        </div>
+        <!-- MD Search Bar Display -->
+        <div class="search-item position-relative">
+            <input type="search" placeholder="Search ..." class="form-control">
+            <i class="fas fa-search"></i>
+        </div>
+        
+        
+    </div>
+  </nav>
+
+
+
+
+  <!-- MAIN HEADER -->
+
+<div class="header">
+    <!-- Desktop Menu -->
+    <nav class="navbar navbar-expand-lg main-nav">
+        
+            <div class="row">
+                <div class="container">
+                    <a class="navbar-brand" href="../html/index.html">LOGO</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars togg-color"></i> 
+                        <span class="navbar-toggler-icon togg-color">Menu</span>
+                    </button>
+                    
+                        <ul class="navbar-nav desktop-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../html/shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/checkout.html">Checkout</a>
+                            </li>
+                        </ul>    
+                </div>
+            </div>
+
+        <!-- Mobile Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mobile-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../html/shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/checkout.html">Checkout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>  
+
+
+    
+    <!-- GENERAL LAYOUT -->
+    <div class="container">
+        <div class="bread-crumb">
+            <p>
+                <a href="../html/index.html">Home</a> / Shop
+            </p>
+        </div>
+
+
+        <div class="row">
+            <!-- GEN FIRST COL -->
+            <div class="col-xl-4 col-lg-4 gen-first-col">
+                <!-- Search Section -->
+                <div class="form-group">
+                    <input type="search" name="" class="form-control" placeholder="Search Products ...">
+                    <button type="submit" class="btn search-btn">
+                        Search
+                    </button>
+                </div>
+
+                <!-- Filter Section -->
+                <div class="filter">
+                    <h5 class="filter-title">Filter by price</h5>
+                    <div class="filter-body">
+                        <div class="filter-bar"></div>
+                        <button class="btn filter-btn">Filter</button>
+                        <span>Price: $10 - $60</span>
+                    </div>
+                </div>
+
+                <!-- Products Section -->
+                <div class="products">
+                    <h5 class="products-title">Products</h5>
+                    <div class="products-body">
+                        <div class="row first-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/rodeo-shirt.html"><p class="desc">Rodeo Shirt</p></a>
+                                <p class="price"><sup>$</sup>35.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/rodeo-shirt.html"><img src="../images/sec-grid/pic-checker.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="row second-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/purple-dress.html"><p class="desc">Purple Dress</p></a>
+                                <p class="price"><sup>$</sup>25.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/purple-dress.html"><img src="../images/sec-grid/pic-dress.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row third-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                               <a href="../html/products/red-sneakers.html"><p class="desc">Red Sneakers</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup>55.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/red-sneakers.html"><img src="../images/sec-grid/pic-red-shoes.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row fourth-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/italian-jeans.html"><p class="desc">Italian Jeans</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup>35.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/italian-jeans.html"><img src="../images/sec-grid/pic-jeans.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row fifth-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/white-shirt.html"><p class="desc">White Shirt</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup><span class="old-price">35.00</span> <span class="new-price"><sup>$</sup>23.00</span></p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/white-shirt.html"><img src="../images/sec-grid/pic-shirt.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Top Products Section -->
+                <div class="top-products">
+                    <h5 class="top-prod-title">Top rated products</h5>
+                    <div class="top-products-body">
+                        <div class="row first-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/rodeo-shirt.html"><p class="desc">Rodeo Shirt</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup>35.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/rodeo-shirt.html"><img src="../images/sec-grid/pic-checker.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="row second-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/purple-dress.html"><p class="desc">Purple Dress</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup>25.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/purple-dress.html"><img src="../images/sec-grid/pic-dress.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row third-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/red-sneakers.html"><p class="desc">Red Sneakers</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup><span class="old-price">12.00</span> <span class="new-price"><sup>$</sup>18.00</span></p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/red-sneakers.html"><img src="../images/sec-grid/pic-red-shoes.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row fourth-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/italian-jeans.html"><p class="desc">Italian Jeans</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup><span class="old-price">35.00</span> <span class="new-price"><sup>$</sup>23.00</span></p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/italian-jeans.html"><img src="../images/sec-grid/pic-jeans.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row fifth-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/white-shirt.html"><p class="desc">White Shirt</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup>35.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/white-shirt.html"><img src="../images/sec-grid/pic-shirt.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- GENERAL SECOND COL -->
+
+            <div class="col-xl-8 col-lg-8 col-sm-12 col-12 gen-second-col">
+                <!-- HEADER ROW -->
+                <div class="row header-row">
+                    <div class="col-xl-6 col-lg-6 col-sm-3 col-3">
+                        <h3 class="row-title">Shop</h3>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                        <span>Showing 1-12 of 22 results</span>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-sm-6 col-6">
+                        <select class="custom-select">
+                            <option value="">Default sorting</option>
+                            <option value="">Sort by popularity</option>
+                            <option value="">Sort by average rating</option>
+                            <option value="">Sort by latest</option>
+                            <option value="">Sort by price: low to high</option>
+                            <option value="">Sort by price: high to low</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <!-- CONTENT -->
+                <!-- FIRST ROW -->
+                <div class="row shop-first-row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 shop-col">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 sale">
+                                
+                                <a class="sale-2" href="../html/products/black-top.html">
+                                    <img class="img-fluid" src="../images/main-grid/pic-top-1.jpg" alt="">
+                                    <h5>Black Top</h5>
+                                </a>
+                                
+                                <p class="price"><sup>$</sup>35.00</p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                <a href="../html/products/little-black-top.html">
+                                    <img class="img-fluid" src="../images/main-grid/pic-top-2.jpg" alt="">
+                                    <h5>Little Black Top</h5>
+                                </a>
+                                <p class="price"><span class="old-price"><sup>$</sup>35.00</span><span class="new-price"><sup>$</sup>20.00</span></p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                                
+                            </div>
+            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <a href="../html/products/little-black-shirt.html">
+                                    <img class="img-fluid" src="../images/main-grid/pic-top-3.jpg" alt="">
+                                    <h5>Little Black Shirt</h5>
+                                </a>
+                                <p class="price"><sup>$</sup>35.00</p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- SECOND ROW -->
+                <div class="row shop-second-row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 shop-col">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                <a href="../html/products/blue-shoes.html">
+                                    <img class="img-fluid" src="../images/main-grid/pic-shoe-1.jpg" alt="">
+                                    <h5>Blue Shoes</h5>
+                                </a>
+                                <p class="price"><sup>$</sup>35.00</p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                <a href="../html/products/mangawian-shoes.html">
+                                    <img class="img-fluid" src="../images/main-grid/pic-shoe-2.jpg" alt="">
+                                    <h5>Mangawian Shoes</h5>
+                                </a>
+                                <p class="price"><span class="old-price"><sup>$</sup>35.00</span><span class="new-price"><sup>$</sup>20.00</span></p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 sale">
+                                <a class="sale-2" href="../html/products/pink-shoes.html">
+                                    <img class="img-fluid " src="../images/main-grid/pic-shoe-3.jpg" alt="">
+                                    <h5>Pink Shoes</h5>
+                                    
+                                </a>
+                                <p class="price"><sup>$</sup>25.20</p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- THIRD ROW -->
+                <div class="row shop-third-row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 shop-col">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                <a href="../html/products/white-shirt.html">
+                                    <img class="img-fluid" src="../images/sec-grid/pic-shirt.jpg" alt="">
+                                    <h5>White Shirt</h5>
+                                </a>
+                                <p class="price"><sup>$</sup>14.00</p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 sale img-sale-2">
+                                <a class="sale-2" href="../html/products/purple-dress.html">
+                                    <img class="img-fluid " src="../images/sec-grid/pic-dress.jpg" alt="">
+                                    <h5>Purple Dress</h5>
+                                </a>
+                                <p class="price"><span class="old-price"><sup>$</sup>35.00</span><span class="new-price"><sup>$</sup>27.00</span></p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <a href="../html/products/red-sneakers.html">
+                                    <img class="img-fluid" src="../images/sec-grid/pic-red-shoes.jpg" alt="">
+                                    <h5>Red Sneakers</h5>
+                                </a>
+                                <p class="price"><sup>$</sup>32.00</p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- FOURTH ROW -->
+                <div class="row shop-fourth-row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 shop-col">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                <a href="../html/products/adaka-scarf.html">
+                                    <img class="img-fluid" src="../images/sec-grid/pic-scarf.jpg" alt="">
+                                    <h5>Adaka Scarf</h5>
+                                </a>
+                                <p class="price"><sup>$</sup>18.33</p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+                                <a href="../html/products/rodeo-shirt.html">
+                                    <img class="img-fluid" src="../images/sec-grid/pic-checker.jpg" alt="">
+                                    <h5>Rodeo Shirt</h5>
+                                </a>
+                                <p class="price"><span class="old-price"><sup>$</sup>43.00</span><span class="new-price"><sup>$</sup>24.10</span></p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+            
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                <a href="../html/products/linen-scarfs.html">
+                                    <img class="img-fluid" src="../images/sec-grid/pic-scarves.jpg" alt="">
+                                    <h5>Linen Scarfs</h5>
+                                </a>
+                                
+                                <p class="price"><sup>$</sup>22.00</p>
+                                <button class="btn add-cart"><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row shop-fifth-row">
+                    <div class="col-xl-12 col-lg-12">
+                        <!-- PAGINATION -->
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                            
+                            <li class="page-item"><a class="page-link active-pag" href="shop.html">1</a></li>
+                            <li class="page-item"><a class="page-link" href="shop-pg-2.html">2</a></li>
+                            <li class="page-item">
+                                <a class="" href="shop-pg-2.html" aria-label="Next">
+                                <span class="next">Next</span>
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+
+            
+            
+
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<section id="footer">
+    <footer>
+        <div class="container main-footer">
+            <div class="row">
+
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <h5 class="grid-title">Meta</h5>
+                    <ul>
+                        <li><i class="fas fa-chevron-right"></i><a href="">Log in</a></li>
+                        <li><i class="fas fa-chevron-right"></i><a href="">Entries feed</a></li>
+                        <li><i class="fas fa-chevron-right"></i><a href="">Comments feed</a></li>
+                        <li><i class="fas fa-chevron-right"></i><a href="">WordPress.org</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <h5 class="grid-title">Recent Posts</h5>
+                    <ul>
+                        <li>
+                            <div class="media">
+                                <img src="../images/sec-grid/pic-jeans.jpg" alt="">
+                                <div class="media-body">
+                                    <a href="#">Jeans For The Soul. <br> What Color Are Yours?</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media">
+                                <img src="../images/sec-grid/pic-scarf.jpg" alt="">
+                                <div class="media-body">
+                                    <a href="#">Best Fabrics For Your Dream Dress!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media">
+                                <img src="../images/sec-grid/pic-red-shoes.jpg" alt="">
+                                <div class="media-body">
+                                    <a href="#">Long Legs? No Longer A Myth! Check it out!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media">
+                                <img src="../images/sec-grid/pic-belts.jpg" alt="">
+                                <div class="media-body">
+                                    <a href="#">Latest Trends For Autumn Are Here!</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <h5 class="grid-title">About</h5>
+                    <ul>
+                        <li>
+                            <p>Pri quas audiam virtute ut, case utamur fuisset eam ut, iisque accommodare an eam.</p>
+                        </li>
+                        <li>
+                            <p>Reque blandit qui eu, cu vix nonumy volumus. Legendos intellegam id usu, vide oporteat vix eu, id illud principes has. Nam tempor utamur gubergren no.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 tags">
+                    <h5 class="grid-title">Tags</h5>
+                    <a href="#">Autumn</a>
+                    <a href="#">dress</a>
+                    <a href="#">fashion</a>
+                    <a href="#">jackets</a>
+                    <a href="#">stockings</a>
+                    <a href="#">trends</a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        
+        <!-- SUB FOOTER -->
+        <div class="sub-footer">
+            <div class="container">
+                <div class="wrapper row">
+                    <div class="media-links col-xl-6 col-lg-6 col-md-6">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-dribbble"></i></a>
+                        <a href=""><i class="fab fa-vimeo-v"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+
+
+                    <div class="bread col-xl-6 col-lg-6 col-md-6">
+                        <p>Copyright © 2021</p>
+                        <p><a href="#">Theme: Tyche</a></p>
+                        <p class="powered">Powered by LogoIpsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- Owl Carousel Script -->
+    <script src="../OwlCarousel2/dist/owl.carousel.min.js"></script>
+    <!-- Image Magnifier Script -->
+    <script src="../zoom-master/jquery.zoom.js"></script>
+    <!-- Main JS Script -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

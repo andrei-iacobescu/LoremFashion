@@ -1,0 +1,35 @@
+$color-one: #F66249;
+$color-two: #EAAB76;
+$color-three: #99CA45;
+$color-four: #263585;
+$color-five: #252525;
+$color-six: #FFAB1A;
+$color-seven: #2279D3;
+$color-eight: #25262B;
+$color-nine: #2B2E34;
+$color-ten: #FBFBFB;
+
+
+// Hover colors
+
+$hover-color-one: #e92b0b;
+$hover-color-two: #df8233;
+$hover-color-three: #79a52f;
+$hover-color-four: #1d2968;
+$hover-color-five: #1c1c1c;
+$hover-color-six: #db8b00;
+$hover-color-seven: #1a5ea5;
+
+
+
+// General Props
+
+a {
+    color: $color-nine;
+    text-decoration: none;
+
+    &:hover {
+        color: $color-one;
+        text-decoration: none;
+    }
+}

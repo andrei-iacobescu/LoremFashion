@@ -1,0 +1,151 @@
+@import "utilities";
+@import "config";
+
+.blog-post {
+    border: 1px solid lightgray;
+    padding: 1.5em;
+    margin-bottom: 5em;
+    img {
+        width: 100px;
+       
+    }
+
+    .media-body {
+        margin-left: 1em;
+    }
+}
+
+.tags {
+    margin-bottom: 4em ;
+    p {
+        font-weight: 600;
+    }
+}
+
+.container {
+    .page-title {
+        margin-top: 1em;
+        margin-bottom: 2em;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+
+    // GLOBAL ROW
+    .blog-row {
+        margin-bottom: 3em;
+    }
+    .row {
+        .first-blog {
+            a {
+                color: $color-nine;
+                text-decoration: none;
+                &:hover {
+                    color: $color-one;
+                }
+            }
+
+            img {
+                margin-bottom: 1em;
+                width: 750px;
+                height: 400px;
+                object-fit: cover;
+            }
+            .date {
+                background-color: lightgray;
+                padding: .1em .9em;
+                text-align: center;
+                margin-right: 1em;
+                margin-top: auto;
+                
+                span {
+                    font-weight: 600;
+                    font-size: 1.3rem;
+                }
+            }
+
+            .media {
+                margin-bottom: 1em;
+                .media-body {
+                    h3 {
+                        font-weight: 600;
+                        color: $color-nine;
+                    }
+                }
+            }
+
+            .content {
+                color: gray;
+                font-size: .95rem;
+            }
+
+
+            .read-more {
+                background-color: $color-one;
+                color: $color-ten;
+                padding: .45em 1.3em;
+
+                &:hover {
+                    background-color: $hover-color-one;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    // GENERAL SECOND COL
+    .gen-second-col {
+        padding-left: 2.7em;
+        .row {
+            .fa-search {
+                position: absolute;
+                right: 30;
+                top: 33%;
+                color: $color-one;
+            }
+
+            .first-col {
+                margin-bottom: 4em;
+            }
+
+            h5 {
+                font-weight: 600;
+                margin-bottom: 1em;
+                
+            }
+
+            ul {
+                list-style-type: none;
+                padding-left: 0;
+                margin-bottom: 5em;
+                li {
+                    i {
+                        margin-right: .5em;
+                        color: $color-one;
+                        font-size: .8rem;
+                    }
+
+                    a {
+                        color: $color-one;
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

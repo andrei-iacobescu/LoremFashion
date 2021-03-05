@@ -1,0 +1,104 @@
+@import "utilities";
+@import "config";
+
+
+.container {
+    .bread-crumb {
+        margin-top: 2em;
+        margin-bottom: 2em;
+
+        p {
+            font-size: .9rem;
+            color: gray;
+            a {
+                color:#000;
+                text-decoration: none;
+                &:hover {
+                    color: $color-one;
+                }
+            }
+        }
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 2em;
+    }
+
+    h3 {
+        font-weight: 600;
+    }
+
+    form {
+        margin-top: 2.2em;
+        margin-bottom: 5em;
+        .form-group {
+            margin-left: 0;
+            padding-left: 0;
+            label {
+                color: gray;
+                span {
+                    color: red;
+                }
+            }
+        }
+
+        p.recovery {
+            a {
+                color: $color-one;
+                text-decoration: none;
+
+                &:hover {
+                    color: $hover-color-one;
+                }
+            }
+        }
+
+        button {
+            background-color: $color-one;
+            color: #fff;
+            padding: .4em 2em;
+            font-weight: 600;
+            margin-top: 2em;
+            margin-bottom: .5em;
+
+            &:hover {
+                background-color: $hover-color-one;
+                color: #fff;
+            }
+        }
+
+
+        .form-check-label {
+            color: gray;
+        }
+    }
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 992px) {
+    
+    #wrapper {
+        text-align: center;
+
+        form {
+            .form-group {
+                margin: 0 auto;
+            }
+
+            input[type="checkbox"] {
+                margin-top: 1.4em;
+            }
+
+            .form-check-label {
+                margin-top: 1em;
+            }
+        }
+    }
+
+    
+}

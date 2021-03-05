@@ -1,0 +1,727 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Tyche.xyz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/fontawesome/all.css">
+    <link rel="stylesheet" href="../OwlCarousel2/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../OwlCarousel2/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="../css/checkout.css">
+</head>
+<body>
+    
+    <!-- Top NAV -->
+
+
+<nav class="navbar navbar-expand-lg top-nav">
+  
+    <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item top-email">
+                <span>
+                    <i class="far fa-envelope"></i>
+                    yourmail@mail.com
+                </span>
+            </li>
+            <li class="nav-item position-relative">
+                    <input type="search" placeholder="Search ..." class="form-control">
+                    <i class="fas fa-search"></i>
+            </li>
+            <li class="nav-item acc-item">
+                <a href="../html/account-page.html" class="nav-link"><i class="fas fa-user"></i>
+                    Account
+                </a>
+            </li>
+            <li class="nav-item shop-item">   
+                <a href="../html/cart.html" class="nav-link">
+                <i class="fas fa-shopping-cart"></i>
+                  My Cart - $ 0.00
+                </a>
+            </li>
+            
+        </ul>
+        <!-- Shop Item XS Display -->
+        <div class="shop-xs-item">
+            <a href="../html/cart.html" class="nav-link">
+                <i class="fas fa-shopping-cart"></i>
+                  My Cart - $ 0.00
+            </a>
+        </div>
+        <!-- MD Search Bar Display -->
+        <div class="search-item position-relative">
+            <input type="search" placeholder="Search ..." class="form-control">
+            <i class="fas fa-search"></i>
+        </div>
+        
+        
+    </div>
+  </nav>
+
+
+
+
+  <!-- MAIN HEADER -->
+
+<div class="header">
+    <!-- Desktop Menu -->
+    <nav class="navbar navbar-expand-lg main-nav">
+        
+            <div class="row">
+                <div class="container">
+                    <a class="navbar-brand" href="../html/index.html">LOGO</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars togg-color"></i> 
+                        <span class="navbar-toggler-icon togg-color">Menu</span>
+                    </button>
+                    
+                        <ul class="navbar-nav desktop-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../html/checkout.html">Checkout</a>
+                            </li>
+                        </ul>    
+                </div>
+            </div>
+
+        <!-- Mobile Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mobile-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../html/shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../html/contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../html/checkout.html">Checkout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>  
+
+
+   
+        
+
+
+
+
+    
+    <!-- GENERAL LAYOUT -->
+    <div class="container">
+        <div class="bread-crumb">
+            <p>
+                <a href="../html/index.html">Home</a> / <a href="../html/shop.html">Shop</a> / Checkout
+            </p>
+        </div>
+
+
+        <div class="content">
+            <h2>Checkout</h2>
+            <!-- GLOBAL ROW -->
+            <div class="row">
+                <!-- GENERAL FIRST COL -->
+                <div class="col-xl-8 col-lg-12 col-md-12 col-12">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-12">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-6 col-md-6 col-6">
+                                    <div class="media media-1">
+                                        <i class="fas fa-user"></i>
+                                        <div class="media-body">
+                                            <p>Returning customer?</p>
+                                            <p><a href="../html/account-page.html">Click here to login</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+        
+        
+                                <div class="col-xl-6 col-lg-6 col-md-6">
+                                    <div class="media media-2">
+                                        <i class="fas fa-user"></i>
+                                        <div class="media-body">
+                                            <p>Have a coupon?</p>
+                                            <p><a href="#">Click here to enter your code</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <h3>Billing Details</h3>
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="form-group col-xl-6">
+                                                <label>First name <span>*</span></label>
+                                                <input class="form-control" type="text">
+                                            </div>
+        
+                                            <div class="form-group col-xl-6">
+                                                <label>Last name <span>*</span></label>
+                                                <input class="form-control" type="text">
+                                            </div>
+                                        </div>
+        
+                                        <div class="form-row">
+                                            <div class="form-group col-xl-12">
+                                                <label>Company Name (optional)</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+        
+                                        <div class="form-row">
+                                            <div class="form-group col-xl-12">
+                                                <label>Country / Region <span>*</span></label>
+                                                <select class="custom-select">
+                                                    <option>Etc...</option>
+                                                    <option value="Romania">Russia</option>
+                                                    <option value="Romania">Poland</option>
+                                                    <option value="Romania">United States</option>
+                                                    <option value="Romania">Romania</option>
+                                                </select>
+                                            </div>
+                                        </div>
+        
+        
+                                        <div class="form-row">
+                                            <div class="form-group col-xl-12">
+                                                <label>Street Address <span>*</span></label>
+                                                <input type="text" class="form-control" placeholder="House Number and Street Name">
+                                                <input type="text" class="form-control" placeholder="Apartment, suite, unit, etc.. (optional)">
+                                            </div>
+                                        </div>
+        
+                                        
+                                        <div class="form-row">
+                                            <div class="form-group col-xl-12">
+                                                <label>Town / City <span>*</span></label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+        
+        
+                                        <div class="form-row">
+                                            <div class="form-group col-xl-12">
+                                                <label>County <span>*</span></label>
+                                                <select class="custom-select">
+                                                    <option>Etc...</option>
+                                                    <option value="Romania">Russia</option>
+                                                    <option value="Romania">Poland</option>
+                                                    <option value="Romania">United States</option>
+                                                    <option value="Romania">Romania</option>
+                                                </select>
+                                            </div>
+                                        </div>
+        
+                                        <div class="form-row">
+                                            <div class="form-group col-xl-12">
+                                                <label>Postcode / ZIP <span>*</span></label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+        
+        
+                                        <div class="form-row">
+                                            <div class="form-group col-xl-12">
+                                                <label>Phone <span>*</span></label>
+                                                <input type="tel" class="form-control">
+                                            </div>
+                                        </div>
+        
+        
+        
+                                        <div class="form-row">
+                                            <div class="form-group col-xl-12">
+                                                <label>Email Address <span>*</span></label>
+                                                <input type="email" class="form-control">
+                                            </div>
+                                        </div>
+        
+        
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label" for="defaultCheck1">
+                                              Create an account?
+                                            </label>
+                                        </div>
+        
+                                    </form>
+                                </div>
+                            </div>
+        
+                            <h3>Additional Information</h3>
+        
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Order notes (optional)</label>
+                                        <textarea class="form-control" placeholder="Notes about your oder, e.g. special notes for delivery." rows="3"></textarea>
+                                      </div>
+                                </div>
+                            </div>
+
+
+                            <h3>Your Order</h3>
+
+
+                            <div class="table-container">
+                                <table class="table table-bordered">
+                                    <thead class="thead-light">
+                                      <tr>
+                                        <th scope="col">Product</th>
+                                        <th scope="col">Subtotal</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td class="order-product">Black Top <span>x 1</span></td>
+                                        <td class="subtotal"><sup>$</sup>35.00</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Subtotal</th>
+                                        <td class="subtotal"><sup>$</sup>35.00</td>
+                                        
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Total</th>
+                                        <td class="total"><sup>$</sup>35.00</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- Paypal Panel -->
+                            <div class="paypal">
+                                <div class="first-row">
+                                    <p>PayPal</p>
+                                    <img class="paypal-img" src="../images/paypal.png" alt="">
+                                    <p class="question"><a href="">What is PayPal?</a></p>
+                                </div>
+
+                                <div class="second-row">
+                                    <p>Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.</p>
+                                </div>
+
+                                <div class="third-row">
+                                    <button class="btn">Proceed to PayPal</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+        
+        
+        
+                    
+                    </div>
+                </div>
+                <!-- END GENERAL FIRST COL -->
+
+
+                <!-- GENERAL SECOND COL -->
+
+                <div class="col-xl-4 gen-first-col">
+                     <!-- Search Section -->
+                <div class="form-group">
+                    <input type="search" name="" class="form-control" placeholder="Search Products ...">
+                    <button type="submit" class="btn search-btn">
+                        Search
+                    </button>
+                </div>
+
+                <!-- Filter Section -->
+                <div class="filter">
+                    <h5 class="filter-title">Filter by price</h5>
+                    <div class="filter-body">
+                        <div class="filter-bar"></div>
+                        <button class="btn filter-btn">Filter</button>
+                        <span>Price: $10 - $60</span>
+                    </div>
+                </div>
+
+                <!-- Products Section -->
+                <div class="products">
+                    <h5 class="products-title">Products</h5>
+                    <div class="products-body">
+                        <div class="row first-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/rodeo-shirt.html"><p class="desc">Rodeo Shirt</p></a>
+                                <p class="price"><sup>$</sup>35.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/rodeo-shirt.html"><img src="../images/sec-grid/pic-checker.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="row second-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/purple-dress.html"><p class="desc">Purple Dress</p></a>
+                                <p class="price"><sup>$</sup>25.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/purple-dress.html"><img src="../images/sec-grid/pic-dress.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row third-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                               <a href="../html/products/red-sneakers.html"><p class="desc">Red Sneakers</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup>55.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/red-sneakers.html"><img src="../images/sec-grid/pic-red-shoes.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row fourth-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/italian-jeans.html"><p class="desc">Italian Jeans</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup>35.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/italian-jeans.html"><img src="../images/sec-grid/pic-jeans.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row fifth-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/white-shirt.html"><p class="desc">White Shirt</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup><span class="old-price">35.00</span> <span class="new-price"><sup>$</sup>23.00</span></p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/white-shirt.html"><img src="../images/sec-grid/pic-shirt.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Top Products Section -->
+                <div class="top-products">
+                    <h5 class="top-prod-title">Top rated products</h5>
+                    <div class="top-products-body">
+                        <div class="row first-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/rodeo-shirt.html"><p class="desc">Rodeo Shirt</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup>35.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/rodeo-shirt.html"><img src="../images/sec-grid/pic-checker.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="row second-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/purple-dress.html"><p class="desc">Purple Dress</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup>25.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/purple-dress.html"><img src="../images/sec-grid/pic-dress.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row third-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/red-sneakers.html"><p class="desc">Red Sneakers</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup><span class="old-price">12.00</span> <span class="new-price"><sup>$</sup>18.00</span></p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/red-sneakers.html"><img src="../images/sec-grid/pic-red-shoes.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row fourth-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/italian-jeans.html"><p class="desc">Italian Jeans</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup><span class="old-price">35.00</span> <span class="new-price"><sup>$</sup>23.00</span></p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/italian-jeans.html"><img src="../images/sec-grid/pic-jeans.jpg" alt=""></a>
+                            </div>
+                        </div>
+
+
+                        <div class="row fifth-row">
+                            <div class="col-xl-10 col-lg-10 col-md-10">
+                                <a href="../html/products/white-shirt.html"><p class="desc">White Shirt</p></a>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="price"><sup>$</sup>35.00</p>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-2 col-md-2">
+                                <a href="../html/products/white-shirt.html"><img src="../images/sec-grid/pic-shirt.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<section id="footer">
+    <footer>
+        <div class="container main-footer">
+            <div class="row">
+
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <h5 class="grid-title">Meta</h5>
+                    <ul>
+                        <li><i class="fas fa-chevron-right"></i><a href="">Log in</a></li>
+                        <li><i class="fas fa-chevron-right"></i><a href="">Entries feed</a></li>
+                        <li><i class="fas fa-chevron-right"></i><a href="">Comments feed</a></li>
+                        <li><i class="fas fa-chevron-right"></i><a href="">WordPress.org</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <h5 class="grid-title">Recent Posts</h5>
+                    <ul>
+                        <li>
+                            <div class="media">
+                                <img src="../images/sec-grid/pic-jeans.jpg" alt="">
+                                <div class="media-body">
+                                    <a href="#">Jeans For The Soul. <br> What Color Are Yours?</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media">
+                                <img src="../images/sec-grid/pic-scarf.jpg" alt="">
+                                <div class="media-body">
+                                    <a href="#">Best Fabrics For Your Dream Dress!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media">
+                                <img src="../images/sec-grid/pic-red-shoes.jpg" alt="">
+                                <div class="media-body">
+                                    <a href="#">Long Legs? No Longer A Myth! Check it out!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="media">
+                                <img src="../images/sec-grid/pic-belts.jpg" alt="">
+                                <div class="media-body">
+                                    <a href="#">Latest Trends For Autumn Are Here!</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                    <h5 class="grid-title">About</h5>
+                    <ul>
+                        <li>
+                            <p>Pri quas audiam virtute ut, case utamur fuisset eam ut, iisque accommodare an eam.</p>
+                        </li>
+                        <li>
+                            <p>Reque blandit qui eu, cu vix nonumy volumus. Legendos intellegam id usu, vide oporteat vix eu, id illud principes has. Nam tempor utamur gubergren no.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 tags">
+                    <h5 class="grid-title">Tags</h5>
+                    <a href="#">Autumn</a>
+                    <a href="#">dress</a>
+                    <a href="#">fashion</a>
+                    <a href="#">jackets</a>
+                    <a href="#">stockings</a>
+                    <a href="#">trends</a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        
+        <!-- SUB FOOTER -->
+        <div class="sub-footer">
+            <div class="container">
+                <div class="wrapper row">
+                    <div class="media-links col-xl-6 col-lg-6 col-md-6">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-dribbble"></i></a>
+                        <a href=""><i class="fab fa-vimeo-v"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+
+
+                    <div class="bread col-xl-6 col-lg-6 col-md-6">
+                        <p>Copyright © 2021</p>
+                        <p><a href="#">Theme: Tyche</a></p>
+                        <p class="powered">Powered by LogoIpsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- Owl Carousel Script -->
+    <script src="../OwlCarousel2/dist/owl.carousel.min.js"></script>
+    <!-- Image Magnifier Script -->
+    <script src="../zoom-master/jquery.zoom.js"></script>
+    <!-- Main JS Script -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

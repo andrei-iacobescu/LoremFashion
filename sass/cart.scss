@@ -1,0 +1,43 @@
+@import "utilities";
+@import "config";
+
+
+
+.bread-crumb {
+    margin-top: 2em;
+}
+ 
+    .content {
+        margin-top: 3em;
+        margin-bottom: 5em;
+        h2 {
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 1em;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            p {
+                margin: 0;
+            }
+            button {
+                background-color: $color-one;
+                color: $color-ten;
+                font-weight: 600;
+                margin-left: 1em;
+                &:hover {
+                    background-color: $hover-color-one;
+                }
+            }
+        }
+    }
+
+
+// * {
+//     background: #000 !important;
+//     color: #0f0 !important;
+//     outline: solid #f00 1px !important;
+//   }
+  

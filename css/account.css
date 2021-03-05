@@ -1,0 +1,168 @@
+a {
+  color: #2B2E34;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F66249;
+  text-decoration: none;
+}
+
+.active {
+  color: #F66249 !important;
+}
+
+.togg-color {
+  color: #F66249;
+}
+
+.sale::before {
+  content: "";
+  width: 220px;
+  height: 30px;
+  background-color: #fff;
+  display: block;
+  top: -30px;
+  position: absolute;
+  z-index: 34;
+}
+
+.sale-2::before {
+  content: "";
+  width: 227px;
+  height: 23px;
+  background-color: #fff;
+  display: block;
+  top: 93px;
+  left: -110px;
+  transform: rotate(90deg);
+  position: absolute;
+  z-index: 34;
+}
+
+.sale::after {
+  content: "Sale!";
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(-42deg);
+  width: 180px;
+  height: 35px;
+  padding-top: .3em;
+  margin-left: -1.3em;
+  background-color: #F66249;
+  display: block;
+  top: 30px;
+  left: 0px;
+  position: absolute;
+  z-index: 33;
+}
+
+.active-pag {
+  background-color: #2B2E34;
+  color: #fff !important;
+}
+
+.active-pag:hover {
+  background-color: #2B2E34 !important;
+  color: #F66249 !important;
+}
+
+a {
+  color: #2B2E34;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F66249;
+  text-decoration: none;
+}
+
+.container .bread-crumb {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.container .bread-crumb p {
+  font-size: .9rem;
+  color: gray;
+}
+
+.container .bread-crumb p a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container .bread-crumb p a:hover {
+  color: #F66249;
+}
+
+.container h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 2em;
+}
+
+.container h3 {
+  font-weight: 600;
+}
+
+.container form {
+  margin-top: 2.2em;
+  margin-bottom: 5em;
+}
+
+.container form .form-group {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.container form .form-group label {
+  color: gray;
+}
+
+.container form .form-group label span {
+  color: red;
+}
+
+.container form p.recovery a {
+  color: #F66249;
+  text-decoration: none;
+}
+
+.container form p.recovery a:hover {
+  color: #e92b0b;
+}
+
+.container form button {
+  background-color: #F66249;
+  color: #fff;
+  padding: .4em 2em;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: .5em;
+}
+
+.container form button:hover {
+  background-color: #e92b0b;
+  color: #fff;
+}
+
+.container form .form-check-label {
+  color: gray;
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+  #wrapper {
+    text-align: center;
+  }
+  #wrapper form .form-group {
+    margin: 0 auto;
+  }
+  #wrapper form input[type="checkbox"] {
+    margin-top: 1.4em;
+  }
+  #wrapper form .form-check-label {
+    margin-top: 1em;
+  }
+}

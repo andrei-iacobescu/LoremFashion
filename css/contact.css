@@ -1,0 +1,135 @@
+a {
+  color: #2B2E34;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F66249;
+  text-decoration: none;
+}
+
+.active {
+  color: #F66249 !important;
+}
+
+.togg-color {
+  color: #F66249;
+}
+
+.sale::before {
+  content: "";
+  width: 220px;
+  height: 30px;
+  background-color: #fff;
+  display: block;
+  top: -30px;
+  position: absolute;
+  z-index: 34;
+}
+
+.sale-2::before {
+  content: "";
+  width: 227px;
+  height: 23px;
+  background-color: #fff;
+  display: block;
+  top: 93px;
+  left: -110px;
+  transform: rotate(90deg);
+  position: absolute;
+  z-index: 34;
+}
+
+.sale::after {
+  content: "Sale!";
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(-42deg);
+  width: 180px;
+  height: 35px;
+  padding-top: .3em;
+  margin-left: -1.3em;
+  background-color: #F66249;
+  display: block;
+  top: 30px;
+  left: 0px;
+  position: absolute;
+  z-index: 33;
+}
+
+.active-pag {
+  background-color: #2B2E34;
+  color: #fff !important;
+}
+
+.active-pag:hover {
+  background-color: #2B2E34 !important;
+  color: #F66249 !important;
+}
+
+a {
+  color: #2B2E34;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F66249;
+  text-decoration: none;
+}
+
+.container h3 {
+  font-weight: 600;
+  margin-top: 2em;
+}
+
+.container .first-row {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.container .first-row .first-col p {
+  color: gray;
+}
+
+.container .first-row .media i {
+  background-color: #2B2E34;
+  color: #FBFBFB;
+  padding: .5em .8em;
+  margin-right: .5em;
+}
+
+.container .first-row .media .media-body h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.container .first-row .media .media-body p {
+  font-size: .84rem;
+  color: gray;
+}
+
+.container .second-row label {
+  color: gray;
+}
+
+.container .second-row button[type="submit"] {
+  background-color: #F66249;
+  color: #FBFBFB;
+  padding: .5em 2.7em;
+}
+
+.container .second-row button[type="submit"]:hover {
+  background-color: #e92b0b;
+}
+
+@media (min-width: 320px) and (max-width: 992px) {
+  .container .first-row .second-col {
+    margin-top: 1em;
+  }
+  .container .second-row {
+    margin-bottom: 5em;
+  }
+}
